@@ -66,7 +66,7 @@ either by deleting the resource group in the Portal or running `azd down`.
 
 ### Prerequisites
 
-#### To run locally
+#### To run locally +++
 
 * [Azure Developer CLI](https://aka.ms/azure-dev/install)
 * [Python 3.9+](https://www.python.org/downloads/)
@@ -79,13 +79,13 @@ either by deleting the resource group in the Portal or running `azd down`.
 
 >NOTE: Your Azure Account must have `Microsoft.Authorization/roleAssignments/write` permissions, such as [User Access Administrator](https://learn.microsoft.com/azure/role-based-access-control/built-in-roles#user-access-administrator) or [Owner](https://learn.microsoft.com/azure/role-based-access-control/built-in-roles#owner).
 
-### Project initialization
+### Project initialization +++
 
 1. Create a new folder and switch to it in the terminal
-1. Run `azd auth login`
-2. Run `git clone https://github.com/MartynGorski/azure-search-openai-demo-d.git`
+1. Run `git clone https://github.com/MartynGorski/azure-search-openai-demo-d.git`
+3. Run `azd auth login`
 
-### Deploying from scratch
+### Deploying from scratch +++
 
 Execute the following command, if you don't have any pre-existing Azure services and want to start from a fresh deployment.
 
