@@ -81,19 +81,11 @@ either by deleting the resource group in the Portal or running `azd down`.
 
 >NOTE: Your Azure Account must have `Microsoft.Authorization/roleAssignments/write` permissions, such as [User Access Administrator](https://learn.microsoft.com/azure/role-based-access-control/built-in-roles#user-access-administrator) or [Owner](https://learn.microsoft.com/azure/role-based-access-control/built-in-roles#owner).
 
-#### To Run in GitHub Codespaces or VS Code Remote Containers
-
-You can run this repo virtually by using GitHub Codespaces or VS Code Remote Containers.  Click on one of the buttons below to open this repo in one of those options.
-
-[![Open in GitHub Codespaces](https://img.shields.io/static/v1?style=for-the-badge&label=GitHub+Codespaces&message=Open&color=brightgreen&logo=github)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=599293758&machine=standardLinux32gb&devcontainer_path=.devcontainer%2Fdevcontainer.json&location=WestUs2)
-[![Open in Remote - Containers](https://img.shields.io/static/v1?style=for-the-badge&label=Remote%20-%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/azure-samples/azure-search-openai-demo)
-
 ### Project initialization
 
 1. Create a new folder and switch to it in the terminal
 1. Run `azd auth login`
-1. Run `azd init -t azure-search-openai-demo`
-    * note that this command will initialize a git repository and you do not need to clone this repository
+2. Run `git clone https://github.com/MartynGorski/azure-search-openai-demo-d.git`
 
 ### Deploying from scratch
 
